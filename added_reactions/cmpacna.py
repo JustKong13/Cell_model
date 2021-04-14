@@ -53,13 +53,7 @@ cmpacna_production_rxn.add_metabolites(
 )
 
 
-# add to biomass
 
-biomass_rxn.add_metabolites(
-    {
-        cmpacna: -0.1
-    }
-)
 
 model.add_reactions(
     [
