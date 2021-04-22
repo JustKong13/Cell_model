@@ -189138,8 +189138,7 @@
 "udcpdp_c":-5.5e-05,
 "utp_c":-0.144104,
 "val__L_c":-0.423162,
-"zn2_c":-0.000341,
-"tyr_c": 0.007499166256
+"zn2_c":-0.000341
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
@@ -190522,18 +190521,6 @@
 ],
 "sbo":"SBO:0000176"
 }
-},
-{
-"id":"PAL",
-"name":"Phenylalanine Ammonia Lyase Reaction",
-"metabolites":{
-"cinnm_c":1.0,
-"nh4_c":1.0,
-"phe__L_c":-1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":""
 },
 {
 "id":"TDC",
