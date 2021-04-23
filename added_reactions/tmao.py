@@ -21,5 +21,5 @@ rxn_12990.add_metabolites(
 )
 
 model.add_reactions([rxn_12990])
-cobra.io.save_json_model(model, "./models/iML1515_tmmao.json")
+cobra.io.save_json_model(model, "./models/iML1515_tmao.json")
 model.optimize().objective_value
