@@ -33,7 +33,7 @@ N_acetylneuraminate_synthesis_rxn.add_metabolites(
 ncma = ncma
 ctp = model.metabolites.get_by_id("ctp_c")
 cmpacna = Metabolite(
-    "cmpacna",
+    "cmpacna_c",
     formula="C20H29N4O16P",
     name="CMP-N-acetyl-β-neuraminate",
     compartment="c"
