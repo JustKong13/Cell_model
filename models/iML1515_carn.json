@@ -83357,7 +83357,7 @@
 }
 },
 {
-"id":"carn",
+"id":"carn_c",
 "name":"carnosine",
 "compartment":"c",
 "formula":"C9H14N4O3"
@@ -189139,7 +189139,7 @@
 "utp_c":-0.144104,
 "val__L_c":-0.423162,
 "zn2_c":-0.000341,
-"carn_c": 0.008879921901
+"carn_c":-0.008879921901
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
@@ -190530,7 +190530,7 @@
 "adp_c":1.0,
 "ala_B_c":-1.0,
 "atp_c":-1.0,
-"carn":1.0,
+"carn_c":1.0,
 "h_c":1.0,
 "his__L_c":-1.0,
 "pi_c":1.0

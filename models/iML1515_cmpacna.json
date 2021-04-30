@@ -190547,7 +190547,7 @@
 "id":"CMPACNA_rxn",
 "name":"N-acylneuraminate cytidylyltransferase",
 "metabolites":{
-"cmpacna":1.0,
+"cmpacna_c":1.0,
 "ctp_c":-1.0,
 "ncma_c":-1.0,
 "ppi_c":1.0
