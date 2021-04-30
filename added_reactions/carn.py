@@ -4,7 +4,7 @@ ala_B = model.metabolites.get_by_id("ala_B_c")
 his__L = model.metabolites.get_by_id("his__L_c")
 atp = model.metabolites.get_by_id("atp_c")
 carn = Metabolite(
-        "carn",
+        "carn_c",
         formula="C9H14N4O3",
         name="carnosine",
         compartment="c"
