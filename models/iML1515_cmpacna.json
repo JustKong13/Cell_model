@@ -83357,6 +83357,12 @@
 }
 },
 {
+"id":"mi3p__D",
+"name":"1D-myo-Inositol (3)-phosphate",
+"compartment":"c",
+"formula":"C6H11O9P"
+},
+{
 "id":"ncma_c",
 "name":"N-acetyl-\u03b2-neuraminate",
 "compartment":"c",
@@ -189144,8 +189150,7 @@
 "udcpdp_c":-5.5e-05,
 "utp_c":-0.144104,
 "val__L_c":-0.423162,
-"zn2_c":-0.000341,
-"cmpacna_c":-0.08657083577
+"zn2_c":-0.000341
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
@@ -189184,6 +189189,7 @@
 "atp_c":-75.55223,
 "btn_c":-2e-06,
 "ca2_c":-0.004952,
+"cmpacna_c":-2.89e-04,
 "chor_c":-0.000223,
 "cl_c":-0.004952,
 "clpn160_p":-0.002944,
@@ -190530,6 +190536,30 @@
 }
 },
 {
+"id":"MI3PS",
+"name":"Myo Inositol 1 phosphate synthase",
+"metabolites":{
+"g6p_c":-1.0,
+"mi3p__D":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":""
+},
+{
+"id":"MI3PP",
+"name":"Myo-inositol 1-phosphate",
+"metabolites":{
+"h2o_c":-1.0,
+"inost_c":1.0,
+"mi3p__D":-1.0,
+"pi_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":""
+},
+{
 "id":"CMPACNA_rxn",
 "name":"N-acylneuraminate cytidylyltransferase",
 "metabolites":{
@@ -190621,7 +190651,7 @@
 "id":"L-GLN-FRUCT-6-P-AMINOTRANS-RXN",
 "name":"L-GLN-FRUCT-6-P-AMINOTRANS-RXN",
 "metabolites":{
-"f1p_c":-1.0,
+"f6p_c":-1.0,
 "gam6p_c":1.0,
 "gln__L_c":-1.0,
 "glu__L_c":1.0
