@@ -189132,8 +189132,7 @@
 "udcpdp_c":-5.5e-05,
 "utp_c":-0.144104,
 "val__L_c":-0.423162,
-"zn2_c":-0.000341,
-"crn_c":-0.002837393668
+"zn2_c":-0.000341
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
@@ -190526,6 +190525,19 @@
 "crn_c":1.0,
 "gbbtn_c":-1.0,
 "succ_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":""
+},
+{
+"id":"CROBETREDUCT-RXN",
+"name":"CROBETREDUCT RXN",
+"metabolites":{
+"bbtcoa_c":-1.0,
+"ctbtcoa_c":1.0,
+"h_c":-1.0,
+"nadph_c":1.0
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
